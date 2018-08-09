@@ -239,7 +239,7 @@ function register_sidebars( $number = 1, $args = array() ) {
  */
 function register_sidebar($args = array()) {
 	global $wp_registered_sidebars;
-
+        
 	$i = count($wp_registered_sidebars) + 1;
 
 	$id_is_empty = empty( $args['id'] );
