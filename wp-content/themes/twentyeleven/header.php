@@ -129,13 +129,13 @@ if ( is_singular() && get_option( 'thread_comments' ) ) {
 					$header_image_class = ' with-image';
 				}
 			?>
-			<div class="only-search<?php echo $header_image_class; ?>">
-			<?php get_search_form(); ?>
-			</div>
+			<?php //<div class="only-search ?><?php //echo $header_image_class; ?>">
+			<?php //get_search_form(); ?>
+			<?php //</div> ?>
 			<?php
 				else :
 			?>
-				<?php get_search_form(); ?>
+				<?php //get_search_form(); ?>
 			<?php endif; ?>
 
 			<nav id="access" role="navigation">
